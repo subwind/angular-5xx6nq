@@ -7,7 +7,7 @@ import {Book,HELLO_MESSAGE} from './book';
 import { PREFERRED_BOOKS, preferredBooksFactory } from './preferred-books'
 
 
-
+//針對provider做測試
 @Component({
   selector: 'my-app',
   templateUrl: './app.component.html',
