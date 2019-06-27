@@ -15,10 +15,10 @@ import { PREFERRED_BOOKS, preferredBooksFactory } from './preferred-books'
 })
 export class AppComponent implements OnInit {
   public name:string = 'Angular';
-  public system:string='';
-  public globals:string='';
-  public others:string ='';
-  public bookTxt:string ='';
+  public system:string = '';
+  public globals:string = '';
+  public others:string = '';
+  public bookTxt:string = '';
   public helloTxt:string = '';
 
   constructor(

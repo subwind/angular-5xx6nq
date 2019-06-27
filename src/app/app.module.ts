@@ -27,6 +27,7 @@ const ANGULAR_BOOK = new Book('Learning Angular', 'Angular');
     useClass:SystemLoggerService
 
   },{ provide: Book, useValue: ANGULAR_BOOK },
+  { provide: 'api_url', useValue: '123456789'},
   { provide: HELLO_MESSAGE, useValue: 'Hello World!'},
   BookService,
   { provide: PREFERRED_BOOKS, useFactory: preferredBooksFactory(3), deps: [Book, BookService] }
